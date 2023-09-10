@@ -86,3 +86,5 @@ export function load() {
 		]
 	};
 }
+
+export const prerender = true;
