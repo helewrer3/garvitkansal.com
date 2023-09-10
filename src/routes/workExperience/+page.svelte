@@ -9,7 +9,7 @@
 	<div id="Main" class="flex justify-center items-center p-4">
 		<div class="space-y-5 flex-col p-4">
 			<h1 class="h1">I have worked for a quite a few companies over the years 💼</h1>
-			<h3>Served as a Proud corporate slave for the following:</h3>
+			<h3>Have contributed my skills and expertise to the following corporations:</h3>
 			<Accordion autocollapse class="card p-4 text-token">
 				{#each data.workEx as exp, i}
 					<AccordionItem open={i == 0}>
