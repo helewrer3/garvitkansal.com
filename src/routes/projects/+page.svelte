@@ -1,11 +1,11 @@
-<script lang="ts">
+<script>
 	import { Accordion, AccordionItem, TabGroup, Tab } from '@skeletonlabs/skeleton';
 	import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 
 	export let data;
 
-	let tabSet: number = 0;
+	let tabSet = 0;
 </script>
 
 <div class="container h-full mx-auto flex justify-center items-center">

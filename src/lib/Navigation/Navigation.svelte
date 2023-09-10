@@ -1,7 +1,7 @@
-<script lang="ts">
+<script>
 	import { drawerStore } from '@skeletonlabs/skeleton';
 
-	function drawerClose(): void {
+	function drawerClose() {
 		drawerStore.close();
 	}
 </script>
