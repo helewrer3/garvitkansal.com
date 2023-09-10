@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faTwitter, faMedium } from '@fortawesome/free-brands-svg-icons';
 import { faCode, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export function load() {
@@ -20,9 +20,9 @@ export function load() {
 				logo: faEnvelope
 			},
 			{
-				name: 'Twitter',
-				link: 'https://twitter.com/helewrer3',
-				logo: faTwitter
+				name: 'Medium',
+				link: 'https://medium.com/@garvitkansal',
+				logo: faMedium
 			},
 			{
 				name: 'Leetcode',
